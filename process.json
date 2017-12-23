@@ -1,0 +1,22 @@
+{
+  "apps" : [
+    {
+      "name" :	"mooody_slack",
+      "script" : "index.js",
+      "env" : {
+        "WATSON_USERNAME": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+        "WATSON_PASSWORD": "xxxxxxxx",
+        "WATSON_VERSION": "2017-02-27",
+        "MOOODY_CHANNEL": "mooody",
+        "BOT_TOKEN": "xoxb-xxxxxxxx-xxxxxxxxxxxxx"
+      },
+      "args" : "",
+      "watch" : false,
+      "ignore_watch" : ["node_modules"],
+      "watch_options" : {
+        "followSymlinks" : false
+      },
+      "max_memory_restart": "100M"
+    }
+  ]
+}
